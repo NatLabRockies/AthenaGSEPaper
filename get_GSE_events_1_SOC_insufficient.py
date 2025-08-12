@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from datetime import timedelta
 
-# Define a function to loop through the task dataframe to assign vehicles, charge when the remaining SOC is not enough for the next service
+# This function is to loop through the task dataframe to assign vehicles, charge when the remaining SOC is not enough for the next service
 
 def GSE_assign(GSE_tasks_input, SOC_lower, SOC_upper, charger_power,veh_num_init):
     
