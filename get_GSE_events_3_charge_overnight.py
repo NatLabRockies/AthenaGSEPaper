@@ -1,3 +1,4 @@
+# This function is to loop through the task dataframe to assign vehicles, this is for the overnight charging scenario
 import pandas as pd
 import numpy as np
 from datetime import timedelta
