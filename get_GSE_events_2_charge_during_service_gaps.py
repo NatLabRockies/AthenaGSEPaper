@@ -1,4 +1,4 @@
-# Define a function to loop through the task dataframe to assign vehicles, this is the scenario that vehicles charge every time when they finish serving an aircraft
+# This function is to loop through the task dataframe to assign vehicles, this is the scenario that vehicles charge every time when they finish serving an aircraft
 from datetime import timedelta
 import pandas as pd
 import numpy as np
