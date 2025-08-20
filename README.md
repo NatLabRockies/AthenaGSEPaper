@@ -1,5 +1,5 @@
 # GSE electrification analysis
-This repo contains the input data and code for the GSE electrification analysis. 
+This repo contains the input data and code for the GSE electrification analysis. Running the analysis for all airports can take a long time. Therefore, a demo has been provided in the Demo folder so reviewers can test the code using a sample airport, SLC.
 
 ##### Step 1 is to scale up the flight data by using the BTS Airline On-Time dataset and the T-100 Segment dataset to construct a complete, time-resolved flight activity profile at each airport. The flight data obtained from the BTS dataset is too large and thus not included here. The BTS Airline On-Time flight data and the T-100 Segment data are available at: https://data.nrel.gov/submissions/298.
 
